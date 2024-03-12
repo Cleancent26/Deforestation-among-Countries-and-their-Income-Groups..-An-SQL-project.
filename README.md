@@ -58,6 +58,7 @@ WHERE Y = 27)
   WHERE  country_name =  'SUDAN'  )
 ;
 ```
+#### DELETED COUNTRIES WITH ONLY 6 OUT OF THE 27 forest_area_sqkm THAT IS NOT NULL (SOUTH SUDAN)
 ``` DELETE FROM Forest_Area WHERE COUNTRY_NAME =
  (SELECT DISTINCT country_name FROM Forest_Area
   WHERE  country_name =  'SOUTH SUDAN'  )
