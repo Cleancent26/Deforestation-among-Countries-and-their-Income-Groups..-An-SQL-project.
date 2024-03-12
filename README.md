@@ -72,6 +72,14 @@ DELETE FROM Forest_Area WHERE COUNTRY_NAME =
   WHERE  country_name =  'SOUTH SUDAN'  )
 ;
 ```
+#### UPDATED forest_area_sqkm FOR ETHIOPIA BETWEEN THE YEAR 1990-1992 WHERE forest_area_sqkm IS NULL WITH THE AVERAGE VALUE(MEAN) OF #### forest_area_sqkm 
+```
+UPDATE Forest_Area 
+	SET forest_area_sqkm =(SELECT
+	AVG(forest_area_sqkm)  FROM FOREST_AREA WHERE country_name = 'ETHIOPIA')
+WHERE COUNTRY_NAME = 'ETHIOPIA' AND YEAR BETWEEN 1990 AND 1992
+;
+```
 
 
 
