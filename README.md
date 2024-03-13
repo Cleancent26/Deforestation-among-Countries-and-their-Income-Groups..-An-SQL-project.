@@ -1,15 +1,15 @@
 ## DEFORESTATION AMONG COUNTRIES AND THEIR INCOME_GROUPS (1990-2016) - AN SQL PROJECT.
 ![image](https://github.com/Cleancent26/DATA_ANALYTICS/assets/159614822/d1a9714e-9006-4216-aed3-acad2e89b933)
-#### TABLE OF CONTENTS.
-###<A name="Project-Overview">Project Overview</a>
-###<A name="Project-Overview"> Data Source </a>
-###<A name="Project-Overview">Tools</a>
-###<A name="Project-Overview">Exploratory Data Analysis</a>
-###<A name="Project-Overview">Data Analysis</a>
-###<A name="Project-Overview">Results</a>
-###<A name="Project-Overview">Recommendations</a>
-###<A name="Project-Overview">Limitations</a>
-###<A name="Project-Overview">Rferences</a>
+### TABLE OF CONTENTS.
+[Project overview](#Project Overview)
+[Data Source](#Data Source)
+[Tools](#Tools)
+[Exploratory Data Analysis](#Exploratory Data Analysis)
+[Data Analysis](#Data Analysis)
+[Results](#Results)
+[Recommendations](#Recommendations)
+[Limitations](#Limitations)
+[References](#References)
 
 ### Project Overview
 #### This project work focusses on the activities of deforestation among various countries over the scope of twenty seven years (1990-2016). it tends to look at nations deforestation patterns and gain insights and trends from the deforestation activities.
