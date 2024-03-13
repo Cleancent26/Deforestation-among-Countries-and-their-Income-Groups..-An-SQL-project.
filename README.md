@@ -1,10 +1,26 @@
 ## DEFORESTATION AMONG COUNTRIES AND THEIR INCOME_GROUPS (1990-2016) - AN SQL PROJECT.
 ![image](https://github.com/Cleancent26/DATA_ANALYTICS/assets/159614822/d1a9714e-9006-4216-aed3-acad2e89b933)
 #### TABLE OF CONTENTS.
-<A name="Section-one"></a>
+###<A name="Project-Overview">Project Overview</a>
+###<A name="Project-Overview"> Data Source </a>
+###<A name="Project-Overview">Tools</a>
+###<A name="Project-Overview">Exploratory Data Analysis</a>
+###<A name="Project-Overview">Data Analysis</a>
+###<A name="Project-Overview">Results</a>
+###<A name="Project-Overview">Recommendations</a>
+###<A name="Project-Overview">Limitations</a>
+###<A name="Project-Overview">Rferences</a>
 
+### Project Overview
+#### This project work focusses on the activities of deforestation among various countries over the scope of twenty seven years (1990-2016). it tends to look at nations deforestation patterns and gain insights and trends from the deforestation activities.
 
-#### DATA ASSESSMENT AND CLEANING.
+### Data Source 
+#### Data used for this project are sourced from secondary sources. For this project, my data are in three tables, which are; Forest_Area, Land_Area and Region.
+
+### Tools 
+#### In this project, we will be making use of SQL for carrying the various processes which are mainly Data Cleaning,Data Analysing and .
+
+### DATA ASSESSMENT AND CLEANING.
 
 #### EFFECTING CHANGES TO COUNTRY NAME FROM 'BAHAMAS, THE' TO 'THE BAHAMAS' AND'GAMBIA, THE' TO 'THE GAMBIA'
 ```
@@ -315,6 +331,16 @@ DELETE FROM REGION WHERE COUNTRY_NAME =
 WHERE COUNTRY_NAME = 'WORLD')
 ;
 ```
+
+
+
+
+
+
+
+
+
+
 #### PROBLEM STATEMENTS
 ```
 1. WHAT ARE THE TOTAL NUMBER OF COUNTRIES INVOLVED IN DEFORETATION?
