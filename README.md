@@ -1,5 +1,6 @@
 ## DEFORESTATION AMONG COUNTRIES AND THEIR INCOME_GROUPS (1990-2016) - AN SQL PROJECT.
-https://github.com/Cleancent26/DATA_ANALYTICS/blob/main/Screenshot_20240312-205539.jpg
+![Uploading image.png…]()
+
 
 #### DATA ASSESSMENT AND CLEANING.
 
