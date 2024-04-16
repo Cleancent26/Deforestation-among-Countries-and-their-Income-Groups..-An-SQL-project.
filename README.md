@@ -18,7 +18,7 @@
 #### Data used for this project are sourced from secondary sources. For this project, my data are in three tables, which are; Forest_Area, Land_Area and Region.
 
 ### Tools 
-#### In this project, we will be making use of SQL for carrying the various processes which are mainly Data Cleaning,Data Analysing and .
+#### In this project, we will be making use of SQL for carrying the various processes which are mainly Data Cleaning,Data Analysing and also giving valuables insights with recommendations.
 
 ### DATA ASSESSMENT AND CLEANING.
 
@@ -417,16 +417,28 @@ ORDER BY TOTAL_FOREST_AREA_SQKM DESC
 ```
 ![q5t](https://github.com/Cleancent26/DATA_ANALYTICS/assets/159614822/eba2b6c5-fb17-4354-9f47-1121e1c1daa3)
 
+##### Results
+	1. From the analysis reached,  the total numbers of countries that involved in deforestation is one hundred and fifty four (154).
+ 	2. the income groups of countries having total area ranging from 75,000 to 150,000 was aslo gotten.
+  	3. the average area in sqaure miles for countries in the 'upper middle income region'was also compared to other income groups categories.
+   	4. the total forest area in square km for countries in the 'high income' group was also compared to the rest income groups.
+    	5. countries from each region with the highest total forest area was also gotten.
+
+##### Recoomendations
+ From the analysis derived at, deforestation is mainly carried out by countries with outstanding economic performance. Deforestation has played a pivotal role
+ role in nations advancement into being a developed nation. Nations in the lower income group could venture into deforestation for economic growth by reaching to 
+ nations in the high income group to sell off woods to those countries at higher prices for there economic advancement as those in the high income group have lesser forest area to for deforestation which would get worse in the future as it seems they have gotten to the peak of thir economic advancement with deforestation. so in the near future to come those in the high income group would be short of forest land area and those in the low income group could take advantage of this for their economic advancement.
 
 
+##### Limitations
+ In the course of this analysis, among several limitations faced are;
+ 1. null values in the data; some countries have no values for several years but i was able to go around this by using mean(avgr), and mode to solve this limitation
+ 2. outlyers; in the data set, i also encountered some outlyers in the form of extreme figures with the country name give as world which i had to take out completely.
+ 3. there were also spelling errors which i had to deal with by providing the correct spelling for those words.
 
-  
-   
-
-
-
-
- 
+ ##### References
+ 1. Google; in the course of this analysis, i had to derive photo from google to aid and portray what this project is about.
+ 2. I also want to reference the person of victor somandina who happens to be among my tutor
 
 #### PROBLEM STATEMENTS
 ```
