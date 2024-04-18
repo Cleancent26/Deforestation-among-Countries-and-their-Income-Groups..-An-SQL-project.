@@ -445,7 +445,7 @@ ORDER BY TOTAL_FOREST_AREA_SQKM DESC
 #### Limitations
  Among several limitations faced in the course of this analysis, are;
  1. Null values in the dataset; some countries have no values for several years but i was able to go around this by using mean(avgr), and mode to solve this limitation.
- 2. Outlyers in the dataset; I also encountered some outlyers in the dataset in the form of extreme figures with the country name given as "world" which I had to take out completely.
+ 2. Outliers in the dataset; I also encountered outliers in the dataset in the form of extreme figures with the country name given as "world" which I had to take out completely.
  3. There were also spelling errors which I had to deal with by providing the correct spelling for those words.
 
  #### References
