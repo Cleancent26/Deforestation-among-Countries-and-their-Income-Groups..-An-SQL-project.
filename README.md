@@ -341,6 +341,17 @@ CATEGORIES
 	COMPARE RESULT WITH THE REST OF THE INCOME CATEGORIES
 5. SHOW COUNTRIES FROM EACH REGION (CONTINENT) HAVING THE HIGHEST TOTAL FOREST AREAS.
 
+   #### PROBLEM STATEMENTS
+```
+1. WHAT ARE THE TOTAL NUMBER OF COUNTRIES INVOLVED IN DEFORETATION?
+2. SHOW THE INCOME GROUPS OF COUNTRIES HAVING TOTAL AREA RANGING FROM
+	75,000 TO 150,000 SQUARE METER
+3.CALCULATE AVG. AREA IN SQUARE MILES FOR COUNTRIES IN THE 'UPPER MIDDLE INCOME REGION'
+	COMPARE THE RESULT WITH THE REST OF THE CATEGORIES
+4.DETERMINE THE TOTAL FOREST AREA IN SQUARE KM FOR COUNTRIES IN THE 'HIGH INCOME' GROUP
+	COMPARE RESULT WITH THE REST OF THE INCOME CATEGORIES
+5. SHOW COUNTRIES FROM EACH REGION (CONTINENT) HAVING THE HIGHEST TOTAL FOREST AREAS.
+```
 
    ### Data Analysis
 #####  WHAT ARE THE TOTAL NUMBER OF COUNTRIES INVOLVED IN DEFORETATION?
@@ -417,46 +428,28 @@ ORDER BY TOTAL_FOREST_AREA_SQKM DESC
 ```
 ![q5t](https://github.com/Cleancent26/DATA_ANALYTICS/assets/159614822/eba2b6c5-fb17-4354-9f47-1121e1c1daa3)
 
-##### Results
+#### Results
 	1. From the analysis reached,  the total numbers of countries that involved in deforestation is one hundred and fifty four (154).
  	2. the income groups of countries having total area ranging from 75,000 to 150,000 was aslo gotten.
   	3. the average area in sqaure miles for countries in the 'upper middle income region'was also compared to other income groups categories.
    	4. the total forest area in square km for countries in the 'high income' group was also compared to the rest income groups.
     	5. countries from each region with the highest total forest area was also gotten.
 
-##### Recoomendations
+#### Recommendations
  From the analysis derived at, deforestation has been a major player in the economic growth of several countries. Deforestation has played a pivotal
  role in nations advancement into being a developed nation. Nations in the lower income group could venture into deforestation for economic growth by reaching to 
  nations in the high income group to sell off woods to those countries at higher prices for there economic advancement as those in the high income group have lesser forest area for deforestation which would get worse in the future as it seems they have gotten to the peak of their economic advancement with deforestation. so in the near future to come those in the high income group would be short of forest land area and that would cause a fall in their income and a drop in their economic status thus causing a further drop. And those in the low income group could take advantage of this for their economic advancement while those in the high income group would also win from this by engaging other countries in the low income group for their advancement. 
- 	From the analysis, we could also see that those in the 
+ 	From the analysis, we could also see that those in the 'upper middle income' categories have a greater chance of growing their income from the 'upper middle income' to 'high income' due to their large forest area sqkm in the near future. 
 
 
-##### Limitations
+#### Limitations
  Among several limitations faced in the course of this analysis, are;
  1. Null values in the dataset; some countries have no values for several years but i was able to go around this by using mean(avgr), and mode to solve this limitation.
  2. Outlyers in the dataset; I also encountered some outlyers in the dataset in the form of extreme figures with the country name given as "world" which I had to take out completely.
  3. There were also spelling errors which I had to deal with by providing the correct spelling for those words.
 
- ##### References
+ #### References
  1. Google; in the course of this analysis, i had to derive photo from google to aid and portray what this project is about.
- 2. I also want to reference the person of victor somandina who happens to be among my tutor
-
-#### PROBLEM STATEMENTS
-```
-1. WHAT ARE THE TOTAL NUMBER OF COUNTRIES INVOLVED IN DEFORETATION?
-2. SHOW THE INCOME GROUPS OF COUNTRIES HAVING TOTAL AREA RANGING FROM
-	75,000 TO 150,000 SQUARE METER
-3.CALCULATE AVG. AREA IN SQUARE MILES FOR COUNTRIES IN THE 'UPPER MIDDLE INCOME REGION'
-	COMPARE THE RESULT WITH THE REST OF THE CATEGORIES
-4.DETERMINE THE TOTAL FOREST AREA IN SQUARE KM FOR COUNTRIES IN THE 'HIGH INCOME' GROUP
-	COMPARE RESULT WITH THE REST OF THE INCOME CATEGORIES
-5. SHOW COUNTRIES FROM EACH REGION (CONTINENT) HAVING THE HIGHEST TOTAL FOREST AREAS.
-```
-
-
-
-
+ 2. I also want to reference the person of victor somandina who happens to be among my tutor in the birth peeriod into Data Analytics and for providing me with materials to aid my learning process.
 
 ##### Find full project [here](https://github.com/Cleancent26/DATA_ANALYTICS/blob/main/DEFORESTATION_AMONG_COUNTRIES.sql)
-
-
