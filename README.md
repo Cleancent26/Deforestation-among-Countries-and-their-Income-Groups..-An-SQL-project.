@@ -15,7 +15,7 @@
 #### This project work focusses on the activities of deforestation among various countries over the scope of twenty seven years (1990-2016). it tends to look at nations deforestation patterns and gain insights and trends from the deforestation activities.
 
 ### Data Source 
-#### Data used for this project are sourced from secondary sources. For this project, my data are in three tables, which are; Forest_Area, Land_Area and Region.
+#### Dataset used for this project are sourced from secondary sources. For this project, my data are in three tables, which are; Forest_Area, Land_Area and Region.
 
 ### Tools 
 #### In this project, we will be making use of SQL for carrying the various processes which are mainly Data Cleaning,Data Analysing and also giving valuables insights with recommendations.
@@ -425,16 +425,17 @@ ORDER BY TOTAL_FOREST_AREA_SQKM DESC
     	5. countries from each region with the highest total forest area was also gotten.
 
 ##### Recoomendations
- From the analysis derived at, deforestation is mainly carried out by countries with outstanding economic performance. Deforestation has played a pivotal role
+ From the analysis derived at, deforestation has been a major player in the economic growth of several countries. Deforestation has played a pivotal
  role in nations advancement into being a developed nation. Nations in the lower income group could venture into deforestation for economic growth by reaching to 
- nations in the high income group to sell off woods to those countries at higher prices for there economic advancement as those in the high income group have lesser forest area to for deforestation which would get worse in the future as it seems they have gotten to the peak of thir economic advancement with deforestation. so in the near future to come those in the high income group would be short of forest land area and those in the low income group could take advantage of this for their economic advancement.
+ nations in the high income group to sell off woods to those countries at higher prices for there economic advancement as those in the high income group have lesser forest area for deforestation which would get worse in the future as it seems they have gotten to the peak of their economic advancement with deforestation. so in the near future to come those in the high income group would be short of forest land area and that would cause a fall in their income and a drop in their economic status thus causing a further drop. And those in the low income group could take advantage of this for their economic advancement while those in the high income group would also win from this by engaging other countries in the low income group for their advancement. 
+ 	From the analysis, we could also see that those in the 
 
 
 ##### Limitations
- In the course of this analysis, among several limitations faced are;
- 1. null values in the data; some countries have no values for several years but i was able to go around this by using mean(avgr), and mode to solve this limitation
- 2. outlyers; in the data set, i also encountered some outlyers in the form of extreme figures with the country name give as world which i had to take out completely.
- 3. there were also spelling errors which i had to deal with by providing the correct spelling for those words.
+ Among several limitations faced in the course of this analysis, are;
+ 1. Null values in the dataset; some countries have no values for several years but i was able to go around this by using mean(avgr), and mode to solve this limitation.
+ 2. Outlyers in the dataset; I also encountered some outlyers in the dataset in the form of extreme figures with the country name given as "world" which I had to take out completely.
+ 3. There were also spelling errors which I had to deal with by providing the correct spelling for those words.
 
  ##### References
  1. Google; in the course of this analysis, i had to derive photo from google to aid and portray what this project is about.
